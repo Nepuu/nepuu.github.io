@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Information {
+    text-align: center;
+}
+
+.Footer {
+    text-align: center;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    line-height: 25px;
+}
