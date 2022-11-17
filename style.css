@@ -1,11 +1,27 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    background-color: #111;
+    overflow: hidden;
 }
 
-body {
-    font-family: sans-serif;
-    background-color: #111;
+nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+a {
+    flex: 1;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid hidden;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+
+a:hover,
+a:focus {
+    background-color: #333;
 }
 
 .Main {
@@ -16,6 +32,7 @@ body {
     margin-right: 50px;
     border-radius: 25px;
     box-shadow: 0 0 20px #444;
+    font-family: sans-serif;
 }
 
 .Header h1 {
