@@ -59,7 +59,6 @@ input::placeholder {
 
 input:focus {
     background-color: #333;
-    color: white;
 }
 
 .Login-Button {
