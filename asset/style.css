@@ -60,6 +60,7 @@ input::placeholder {
 input:focus {
     background-color: #333;
     color: white;
+    width: 85%;
 }
 
 .Login-Button {
@@ -72,4 +73,21 @@ input:focus {
 .Login-Button:focus {
     background-color: crimson;
     color: white;
+}
+
+hr {
+    margin: 20px auto;
+    width: 80%;
+}
+
+p {
+    text-align: center;
+    margin: 35px auto 0;
+    padding: 0 20px;
+    transition: .5s;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
 }

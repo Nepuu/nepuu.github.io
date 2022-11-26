@@ -1,0 +1,29 @@
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+img {
+    height: 250px;
+    margin: 0 0 0;
+}
+
+h1 {
+    width: auto;
+    height: auto;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 80px;
+    font-weight: 150;
+    text-align: center;
+}
