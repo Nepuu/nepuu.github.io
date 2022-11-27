@@ -84,3 +84,10 @@ hr {
 table {
     margin: 0 auto;
 }
+
+.what {
+    color: crimson;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+}

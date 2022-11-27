@@ -4,7 +4,9 @@ function Login () {
 
     if (username == "user" && password == "user") {
         window.open ("Beranda.html");
-        document.getElementById ("Main") . innerHTML = "<h1><center>Login berhasil, Sekarang anda bisa menutup website ini.</center></h1>";
+        document.getElementById ("Main") . innerHTML = "";
+        document.getElementById ("gfg").style.display = "block";
+        document.getElementById ("waydh").style.display = "block";
     } else {
         alert ("Login gagal");
         return true;
