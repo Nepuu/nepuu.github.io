@@ -10,13 +10,26 @@
     <script src="asset/main.js"></script>
 </head>
 <body>
-    <div class="Main">
-        <h1 class="Heading">Masuk</h1>
-        <input type="email" class="Email" placeholder="Email" autocomplete="off" required>
-        <input type="password" class="Password" placeholder="Password" autocomplete="off" required>
-        <input type="submit" class="Login-Button" value="Masuk">
-        <hr>
-        <p>Fitur ini belum berfungsi sepenuhnya untuk sekarang. Berpindah ke beranda ? <a href="Beranda.html">Klik disini</a>.</p>
-    </div>
+    <form>
+        <div class="Main" id="Main">
+            <h1 class="Heading">Masuk</h1>
+            <input type="text" id="Username" class="Username" placeholder="Username" autocomplete="off" required>
+            <input type="password" id="Password" class="Password" placeholder="Password" autocomplete="off" required>
+            <input type="submit" class="Login-Button" value="Masuk" onclick="Login ()">
+            <hr>
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td> : </td>
+                    <td>user</td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td> : </td>
+                    <td>user</td>
+                </tr>
+            </table>
+        </div>
+    </form>
 </body>
 </html>
