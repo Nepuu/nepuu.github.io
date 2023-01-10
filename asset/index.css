@@ -6,6 +6,10 @@ body {
     display: none;
 }
 
+.Nav {
+    display: none;
+}
+
 .Download h1 {
     display: none;
 }
@@ -54,6 +58,21 @@ body {
         color: white;
         background-color: #111;
         display: block;
+    }
+
+    .Nav {
+        text-align: center;
+        display: block;
+        background-color: #111;
+    }
+
+    .Nav a {
+        max-width: 50%;
+        color: white;
+        text-decoration: none;
+        background-color: #111;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
     }
 
     .Download h1 {
