@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    color: white;
+    background-color: #222;
+}
+
+.boxHeaderImg {
+    background-color: #111;
+    padding: 5px 5px;
+}
+
+.boxHeaderImg img {
+    width: 128px;
+    height: 128px;
+    border: 2px solid black;
+    border-radius: 360px;
+    display: block;
+    margin: auto;
+}
+
+.boxHeaderText {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+.contentLeft {
+    float: left;
+    display: block;
+    font-family: sans-serif;
+    margin-left: 8%;
+    max-width: 35%;
+}
+
+.contentLeft h2 {
+    margin-top: 50px;
+    font-weight: bold;
+    border-bottom: 5px solid crimson;
+    max-width: fit-content;
+}
+
+.contentLeft p {
+    text-align: justify;
+}
+
+.contentLeft a {
+    color: dodgerblue;
+}
+
+.contentRight {
+    float: right;
+    display: block;
+    font-family: sans-serif;
+    margin-right: 8%;
+    max-width: 60%;
+}
+
+.contentRight h2 {
+    margin-top: 50px;
+    font-weight: bold;
+    border-bottom: 5px solid crimson;
+    max-width: fit-content;
+}
+
+.contentRight td {
+    padding-top: 20px;
+}
+
+.contentRight table {
+    margin-top: -15px;
+}
+
+@media only screen and (max-width: 800px) {
+    .contentLeft {
+        margin-left: 1%;
+    }
+
+    .contentRight {
+        margin-right: 1%;
+    }
+}
