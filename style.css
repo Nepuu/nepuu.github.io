@@ -87,6 +87,10 @@ body {
 
 @media only screen and (max-width: 720px) {
     .contentLeft {
+        max-width: 30%;
+    }
+
+    .contentLeft td {
         max-width: 28%;
     }
 }
