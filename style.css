@@ -78,10 +78,12 @@ body {
 @media only screen and (max-width: 800px) {
     .contentLeft {
         margin: 2%;
+        max-width: 100%;
     }
 
     .contentRight {
         margin: 2%;
         float: left;
+        max-width: 100%;
     }
 }
