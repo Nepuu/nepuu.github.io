@@ -47,6 +47,11 @@ body {
     color: dodgerblue;
 }
 
+.contentLeft img {
+    width: 210px;
+    border: 1px solid dodgerblue;
+}
+
 .contentRight {
     float: right;
     display: block;
