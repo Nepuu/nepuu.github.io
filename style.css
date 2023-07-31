@@ -84,3 +84,9 @@ body {
         margin-right: 1%;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .contentLeft {
+        max-width: 28%;
+    }
+}
