@@ -77,20 +77,11 @@ body {
 
 @media only screen and (max-width: 800px) {
     .contentLeft {
-        margin-left: 1%;
+        margin: 2%;
     }
 
     .contentRight {
-        margin-right: 1%;
-    }
-}
-
-@media only screen and (max-width: 720px) {
-    .contentLeft {
-        max-width: 30%;
-    }
-
-    .contentLeft td {
-        max-width: 28%;
+        margin: 2%;
+        float: left;
     }
 }
