@@ -3,48 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="boxHeaderImg">
-        <img src="profile.jpg">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Portofolio Saya</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Tentang</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontak</a>
+                </li>
+                <li class="nav-item" hidden>
+                    <a class="nav-link" href="#video">Video</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="boxHeaderText">
-        <h2>Habibi Chandra Putra Rimansyah</h2>
-    </div>
+</nav>
 
-    <div class="contentLeft">
-        <h2>PROFIL</h2>
-        <p>Saya adalah seorang siswa dari SMKN 5 Malang yang mengambil jurusan Pengembangan Perangkat Lunak dan Gim (PPLG). Angkatan tahun 2022 / 2023.</p>
-
-        <h2>MEDIA</h2>
-        <table>
-            <tr>
-                <td>Email</td>
-                <td>: </td>
-                <td>nephuu.id@gmail.com</td>
-            </tr>
-            <tr>
-                <td>GitHub</td>
-                <td>: </td>
-                <td><a href="https://github.com/Nepuu">Kunjungi</a></td>
-            </tr>
-        </table>
-
-        <h2>PROJECT</h2>
-        <a href="project.png"><img src="project.png"></a>
-        <p>Saat ini saya mengerjakan website Portofolio.</p>
-    </div>
-
-    <div class="contentRight">
-        <h2>PENDIDIKAN</h2>
-        <p><b>2013 - 2019</b><br>SDN Tasikmadu 2 Malang</p>
-        <p><b>2019 - 2022</b><br>SMPN 26 Malang</p>
-        <p><b>2022 - Sekarang</b><br>SMKN 5 Malang</p>
-
-        <h2>DATA DIRI</h2>
-        <table>
+<!-- Konten -->
+<div class="header" style="margin-top: 50px;">
+    <img src="profile.jpg" width="120px" height="120px" style="padding: 5px; border: 2px solid; border-radius: 360px; display: block; margin: auto;">
+    <h2 align="center" style="margin-bottom: 120px;">Habibi Chandra Putra Rimansyah</h2>
+</div>
+<div class="container" style="margin-bottom: 150px;">
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya Habibi Chandra Putra Rimansyah, seorang siswa dari SMKN 5 Malang yang mengambil jurusan Pengembangan Perangkat Lunak dan Gim (PPLG) Angkatan tahun 2022 / 2023.</p>
+        <table style="font-weight: bold;">
             <tr>
                 <td>Nama</td>
                 <td>: </td>
@@ -58,9 +57,32 @@
             <tr>
                 <td>Alamat</td>
                 <td>: </td>
-                <td>Jl. Kh Yusuf No. 18 RT.03 / RW.04<br>Tasikmadu, Lowokwaru, Kota Malang</td>
+                <td>Jl. Kh Yusuf No. 18 RT03 RW04 Tasikmadu Kec. Lowokwaru Malang</td>
             </tr>
         </table>
-    </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portofolio</h2>
+        <p>Saya saat ini mengerjakan sebuah project website portofolio menggunakan bootstrap.</p>
+        <a href="project.png" style="margin-bottom: 50px;"><img src="project.png" style="width: 50%;"></a>
+    </section>
+
+    <section id="contact">
+        <h2 style="margin-top: 25px;">Kontak</h2>
+        <li>Email: nephuu.id@gmail.com</li>
+        <li>GitHub: <a href="https://github.com/Nepuu" style="color: dodgerblue;">Kunjungi</a></li>
+    </section>
+
+    <section id="video" hidden>
+        <h2>Video</h2>
+        <p>Berisi video yang telah saya unggah di akun YouTube saya.</p>
+    </section>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
